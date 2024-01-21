@@ -12,6 +12,7 @@
  {
    var result = event.results[event.resultIndex];
    if (result.isFinal) {
+    console.log(result[0].transcript)
      alert('Вы сказали: ' + result[0].transcript);
    } 
   //  else 
