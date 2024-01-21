@@ -2,7 +2,7 @@
  var recognizer = new webkitSpeechRecognition();
 
  // Ставим опцию, чтобы распознавание началось ещё до того, как пользователь закончит говорить
-//  recognizer.interimResults = true;
+ recognizer.interimResults = true;
 
  // Какой язык будем распознавать?
  recognizer.lang = 'en-En';
@@ -15,10 +15,10 @@
     console.log(result[0].transcript)
      alert('you said: ' + result[0].transcript);
    } 
-  //  else 
-  //  {
-  //    console.log('Промежуточный результат: ', result[0].transcript);
-  //  }
+   else 
+   {
+     console.log('Промежуточный результат: ', result[0].transcript);
+   }
  };
 
  function speech () {
