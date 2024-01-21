@@ -139,6 +139,9 @@ recognition.lang = 'ru-RU';
 recognition.interimResults = false;
 recognition.maxAlternatives = 1;
 
+console. log(speechRecognitionList)
+console. log(recognition)
+
 const microphoneIcon = document.querySelector('.microphone__image');
 const microphoneWrapper = document.querySelector('.microphone-wrapper');
 const audioRecordAnimation = document.querySelector('.audio-record-animation');
@@ -146,6 +149,8 @@ const speechRecognitionSection = document.querySelector(
   '.speech-recognition-section'
 );
 const recognitionTextResult = document.querySelector('.recognition-result');
+
+console.log (recognitionTextResult)
 
 function getColor(speechResult) {
   for (let index = 0; index < colorsList.length; index += 1) {
