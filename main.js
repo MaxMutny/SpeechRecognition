@@ -8,13 +8,16 @@
  recognizer.lang = 'ru-Ru';
 
  // Используем колбек для обработки результатов
- recognizer.onresult = function (event) {
+ recognizer.onresult = function (event) 
+ {
    var result = event.results[event.resultIndex];
    if (result.isFinal) {
      alert('Вы сказали: ' + result[0].transcript);
-   } else {
-     console.log('Промежуточный результат: ', result[0].transcript);
-   }
+   } 
+  //  else 
+  //  {
+  //    console.log('Промежуточный результат: ', result[0].transcript);
+  //  }
  };
 
  function speech () {
