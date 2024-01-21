@@ -33,6 +33,6 @@
 //    synth.speak (utterance);
 //  }
 
-//  function stop () {
-//    synth.pause();
-//  }
+ function stop () {
+  recognizer.stop() ;
+ }
