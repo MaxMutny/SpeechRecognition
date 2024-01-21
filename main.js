@@ -111,6 +111,9 @@ const SpeechGrammarList =
 const SpeechRecognitionEvent =
   window.SpeechRecognitionEvent || window.webkitSpeechRecognitionEvent;
 
+
+  console.log (SpeechRecognitionEvent)
+
 const colors = {
   красный: 'red',
   оранжевый: 'orange',
