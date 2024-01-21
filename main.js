@@ -2,7 +2,7 @@
  var recognizer = new webkitSpeechRecognition();
 
  // Ставим опцию, чтобы распознавание началось ещё до того, как пользователь закончит говорить
- recognizer.interimResults = true;
+//  recognizer.interimResults = true;
 
  // Какой язык будем распознавать?
  recognizer.lang = 'ru-Ru';
