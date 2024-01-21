@@ -34,5 +34,8 @@
 //  }
 
  function stop () {
-  recognizer.stop() ;
+  recognizer.stop() 
+  console.log ("stop")
  }
+
+ 
